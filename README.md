@@ -55,6 +55,7 @@ Este projeto será desenvolvido pelos componentes do grupo 7:
 10. RF010 - O sistema deve permitir aos usuários que tenham as devidas permissões criar cargos, atribuir cargos aos colaboradores ou atualizar os cargos.
 11. RF011 - O sistema deve permitir aos usuários que tenham as devidas permissões ativar ou desativar contas.
 12. RF012 - O sistema deve permitir ao órgão público visualizar os documentos de processos específicos da empresa, definidos pelo presidente ou pelo diretor de licitação
+13. RF013 - O sistema o usuário extrair relatórios informando filtros como período, intervalo de tempo dado em datas ou nenhum, trazendo todos os registros
 
 ### Requisitos Não Funcionais
 
