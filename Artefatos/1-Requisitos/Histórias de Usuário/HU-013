@@ -1,0 +1,42 @@
+
+
+## **História de Usuário**
+
+### **ID:**  
+HU-013
+
+### **Título:**  
+Emitir Relatórios De Ganhos Acumulados
+
+### **Descrição:**  
+Como **usuário cadastrado**, eu quero **emitir relatórios de ganhos acumulados durante um intervalo de tempo** para que **possamos realizar um levantamento de dados sobre os ganhos e mobilizar o lucro**.
+
+### **Critérios de Aceitação:**
+
+#### Cenário 1: Extração de relatório com sucesso
+- **Dado** que o usuário está na página de financeiro e tem a autenticação de dois fatores ativada,
+- **Quando** o usuário insere corretamente o intervalo de datas como filtro,
+- **E** pressiona o botão de pesquisa,
+- **Então** ao usuário deve ser apresentado uma tabela contento as informações das transações.
+
+#### Cenário 2: Falha na extração de relatório
+- **Dado** que o usuário está na página de financeiro e tem a autenticação de dois fatores ativada,
+- **Quando** insere um intervalo de datas incoerentes como filtro,
+- **Então** uma mensagem de erro deve ser exibida, informando que 'não foram encontrados resultados para os filtros informados',
+- **E** o usuário deve poder tentar inserir datas novamente.
+
+#### Cenário 3: Falha ao não informar filtros
+- **Dado** que o usuário está na página de financeiro,
+- **Quando** deixa de informar data e possíveis outros filtros, como cliente,
+- **Então** uma mensagem de erro deve ser exibida informando que o usuário deve informar filtros,
+- **E** o usuário deve ter a opção de voltar a informar filtros.
+
+### **Prioridade:**  
+Alta
+
+### **Estimativa de Esforço:**  
+3 Story Points
+
+### **Dependências:**  
+
+### **Notas/Comentários Adicionais:**
