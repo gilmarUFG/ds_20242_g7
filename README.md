@@ -68,10 +68,10 @@ Este projeto será desenvolvido pelos componentes do grupo 7:
 7. RNF007 - Conectividade: <Descrição do Requisito não Funcional>.
 
 ### Regras de Negócio
-1. RN01 - <Descrição da Regra de Negócio>.
-2. RN02 - <Descrição da Regra de Negócio>.
-3. RN03 - <Descrição da Regra de Negócio>.
-4. RN04 - <Descrição da Regra de Negócio>.
+1. RN01 - Usuário de determinado departamento só podem ter acesso às pastas de seu departamento.
+2. RN02 - Um usuário deve estar vinculado a uma empresa.
+3. RN03 - O gerente de RH deverá possuir permissão para adicionar novas contas associadas à empresa.
+4. RN04 - O sistema deve buscar novas licitações a atualização da página.
 5. RN05 - <Descrição da Regra de Negócio>.
 
 ### Modelo Arquitetural
