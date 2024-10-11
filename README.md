@@ -44,47 +44,97 @@ Este projeto será desenvolvido pelos componentes do grupo 7:
 ### Os documentos dos requitos podem ser encontrados na pasta:  [Requisitos](./Artefatos/1-%20Requisitos/)
 
 1. RF001 - O sistema deve permitir que o colaborador possa realizar seu cadastro no sistema, permitindo que ele informe informações como Nome, CPF, E-mail válido, Telefone, Senha e Foto de perfil (não obrigatório).
+
 2. RF002 - O sistema deve permitir a criação, atualização de informações ou remoção de processos de licitação, permitindo que o usuário insira todas as informações através de um formulário intuitivo, que inclua campos para o nome do processo, datas importantes, local, valor total, responsáveis e upload de documentos.
+
 3. RF003 - O sistema deve permitir ao diretor de licitação ou presidente definir a prioridade dos processos.
+
 4. RF004 - O sistema deve permitir ao diretor de licitação ou presidente da empresa apagar um processo.
+
 5. RF005 - O sistema deve permitir que os usuários com as devidas permissões criem, atualizem ou removam pastas nos respectivos departamentos ou processos. O usuário deve ser capaz de inserir informações importantes por meio de um formulário, que inclui nome da pasta, valor total, datas importantes e upload de documentos.
+
 6. RF006 - O sistema deve permitir aos usuários com as devidas permissões insiram, atualizem ou apaguem documentos de uma pasta ou de um processo.
+
 7. RF007 - O sistema deve ter uma área de captação automática de licitações disponíveis no portal do governo federal, disponibilizando aos usuários filtros de interesse.
 8. RF008 - O sistema deve permitir a emissão de relatórios do sistema. Usuários autorizados devem poder gerar relatórios de uso do armazenamento, desempenho dos participantes de uma licitação, relatório geral dos processos e andamento das processos por grupo.
+
 9. RF009 - O sistema deve permitir a emissão de relatórios financeiros. Usuários autorizados devem poder gerar relatórios de ganhos financeiros no geral, relatórios financeiros por período e relatórios financeiros de processos específicos.
+
 10. RF010 - O sistema deve permitir aos usuários que tenham as devidas permissões criar cargos, atribuir cargos aos colaboradores ou atualizar os cargos.
+
 11. RF011 - O sistema deve permitir aos usuários que tenham as devidas permissões ativar ou desativar contas.
-12. RF012 - O sistema deve permitir ao órgão público visualizar os documentos de processos específicos da empresa, definidos pelo presidente ou pelo diretor de licitação
+
+12. RF012 - O sistema deve permitir ao órgão público visualizar os documentos de processos específicos da empresa, definidos pelo presidente ou pelo diretor de licitação.
+
 13. RF013 - O sistema o usuário extrair relatórios informando filtros como período, intervalo de tempo dado em datas ou nenhum, trazendo todos os registros
 
 ### Requisitos Não Funcionais
 
-1. RNF001 - Usabilidade: <Descrição do Requisito não Funcional>.
-2. RNF002 - Segurança: <Descrição do Requisito não Funcional>..
-3. RNF003 - Desempenho: <Descrição do Requisito não Funcional>..
-4. RNF004 - Confiabilidade: <Descrição do Requisito não Funcional>.
-5. RNF005 - Manutenibilidade: <Descrição do Requisito não Funcional>.
-6. RNF006 - Portabilidade: <Descrição do Requisito não Funcional>.
-7. RNF007 - Conectividade: <Descrição do Requisito não Funcional>.
+1. RNF001 - Usabilidade: A interface deve ser fácil de usar e intuitiva.
+
+2. RNF002 - Segurança: Comunicação criptografada com SSL/TLS.
+
+3. RNF003 - Segurança: Autenticação multifator (MFA) para todos os usuários.
+
+4. RNF004 - Segurança: Dados sensíveis devem ser criptografados.
+
+5. RNF005 - Segurança: Registros de atividades em log de auditoria seguro.
+
+6. RNF006 - Segurança: Acesso a logs só para administradores.
+
+7. RNF007 - Desempenho: Tempo de resposta máximo de 2 segundos.
+
+8. RNF008 - Desempenho: Suportar até 1.000 usuários simultâneos.
+
+9. RNF009 - Confiabilidade: Disponibilidade mínima de 99,9% por ano.
+
+10. RNF010 - Confiabilidade: Recuperação em até 1 hora em caso de falha.
+
+11. RNF011 - Manutenibilidade: Código-fonte bem documentado.
+
+12. RNF012 - Manutenibilidade: Atualizações sem interrupção significativa do serviço.
+
+13. RNF013 - Portabilidade: Compatível com diversas plataformas e navegadores.
+
+14. RNF014 - Conectividade: Integração com outros sistemas ou APIs externas de forma eficiente.
 
 ### Regras de Negócio
-1. RN01 - Usuário de determinado departamento só podem ter acesso às pastas de seu departamento.
-2. RN02 - Um usuário deve estar vinculado a uma empresa.
+1. RN01 - Colaboradores de determinado departamento só podem ter acesso às pastas de seu departamento.
+
+2. RN02 - Um colaborador deve estar vinculado a uma empresa.
 3. RN03 - O gerente de RH deverá possuir permissão para adicionar novas contas associadas à empresa.
-4. RN04 - O sistema deve buscar novas licitações a atualização da página.
-5. RN05 - <Descrição da Regra de Negócio>.
+
+4. RN04 - O sistema deve buscar novas licitações a cada atualização da página.
+
+5. RN05 - Cada processo deve ter obrigatoriamente um título, data de abertura, objeto, portal em que ocorrerá a licitação e representante para ser cadastrado no sistema.
+
+6. RN06 - Cada processo tem uma validade de 48h para ser aprovado, e deve ser automaticamente deletado após esse prazo.
+
+7. RN07 - Somente usuários com o cargo 'Presidente' ou 'Diretor de Licitação' podem aprovar um processo que está na sessão "Pendente de Aprovação".
+
+8. RN08 - Relatórios do sistema só podem ser emitidos por usuários com o cargo 'Analista...' ou superior.
+
+9. RN09 - Somente usuários com o cargo 'Presidente' ou 'Diretor de Licitação' podem excluir processos ou pastas.
+
+10. RN10 - O sistema deve permitir o upload de arquivos em vários formatos (pdf, docx, xlsx, txt, etc...) com um tamanho máximo de 50mb. Arquivos acima de 50mb.
+
+11. RN11 - Somente colaboradores com o cargo "Diretor" ou acima podem emitir relatórios detalhados do sistema.
+
+12. RN12 - O sistema deve enviar uma notificação automática para o representante de uma licitação quando a abertura estiver próxima, com informaações sobre o momento da abertura.
+
+13. RN13 - As licitações devem ser organizadas primeiramente por importância e, posteriormente, pela ordem de cadastro.
 
 ### Modelo Arquitetural
-<Apresentar uma descrição sucinta do modelo arquitetural do Produto.>
+Será utilizada a arquitetura Cliente-Servidor.
 
 ### Modelo de Interfaces Gráficas
-<Apresentar uma descrição sucinta do modelo de interfaces gráficas do Produto.>
+Serão utilizados wireframes e protótipos para a apresentação da Interface do Usuário, utilizando como principal ferramenta de prototipação o Figma.
 
 ### Tecnologia de Persistência de Dados
-<Apresentar uma descrição sucinta do modelo de persistência do Produto.>
+Para a persistência iremos utilizar Postgres com Drizzle ORM
 
 ### Local do _Deploy_
-O nosso planejamento inicial é hospedar nossa aplicação no Heroku ou no Firebase do Google, sendo crucial para nossa escolha a facilidade de configuração e também os recursos ofertados na versão gratuita.
+O deploy da aplicação será feito no Vercel.
 
 ### Cronograma de Desenvolvimento
 
