@@ -142,11 +142,11 @@ O deploy da aplicação será feito no Vercel.
 |---|---|---|---|---|---|
 |1|Concepção|30/08/2024|13/09/2024|Grupo|Concluída|
 |2|Preparação|14/09/2024|27/09/2024|Grupo|Programada|
-|3|Item(ns) do backlog <x,y,z>|28/09/2024|11/10/2024|Grupo|Programada|
-|4|Item(ns) do backlog <x,y,z>|12/10/2024|25/10/2024|Grupo|Programada|
-|5|Item(ns) do backlog <x,y,z>|26/10/2024|08/11/2024|Grupo|Programada|
-|6|Item(ns) do backlog <x,y,z>|09/11/2024|22/11/2024|Grupo|Programada|
-|7|Item(ns) do backlog <x,y,z>|23/11/2024|06/12/2024|Grupo|Programada|
+|3|Definição de cronograma do Backlog|28/09/2024|11/10/2024|Grupo|Programada|
+|4|Item(ns) do backlog RF001, RF010, RF011|12/10/2024|25/10/2024|Grupo|Programada|
+|5|Item(ns) do backlog RF003, RF004, RF006, RF007|26/10/2024|08/11/2024|Grupo|Programada|
+|6|Item(ns) do backlog RF002, RF005, RF009|09/11/2024|22/11/2024|Grupo|Programada|
+|7|Item(ns) do backlog RF008, RF012, RF013|23/11/2024|06/12/2024|Grupo|Programada|
 |8|Apresentação do Projeto|07/12/2024|20/12/2024|Grupo|Programada|
 
 ### Iterações x Atividades
