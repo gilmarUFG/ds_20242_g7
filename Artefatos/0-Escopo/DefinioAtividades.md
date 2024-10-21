@@ -14,11 +14,11 @@
 
 # CRONOGRAMA DE ENTREGAS
 
-||Iteração 1 - Definição (01/11/2024)<br /><br />|Iteração 2 - Implementação (06/12/2024)<br /><br />|
+||Iteração 1 - Modelagem (01/11/2024)<br /><br />|Iteração 2 - Implementação (06/12/2024)<br /><br />|
 |---|---|---|
 |Dados| ● Esquema do banco de dados<br /><br /> ● Dicionario de dados (com atributos)<br /><br /> ● Diagrama Relacional | ● Implementação do banco de dados|
-|Arquitetura| ● Diagrama de classes<br /><br />● Diagrama de Classes de Projeto C4 Model<br /><br />● Diagrama de Sequência<br /><br />● Diagrama de Arquitetura| ● Implementação da arquitetura do projeto (Backend) |
-|Prototipo da Interface| ● Protótipo da Interface, com layouts de alta fidelidade<br /><br /> ● Identificação de eventos de cada elemento da interface| ● Implementação da interface do usuário|
+|Arquitetura| ● Diagrama de classes<br /><br />● Diagrama de Arquitetura C4 Model<br /><br />● Diagrama de Sequência<br /><br />● Diagrama de Arquitetura| ● Implementação da arquitetura do projeto (Backend) |
+|Interface de Usuário| ● Protótipo da Interface, com layouts de alta fidelidade<br /><br /> ● Identificação de eventos de cada elemento da interface| ● Implementação da interface do usuário|
 
 <br />
 <br />
