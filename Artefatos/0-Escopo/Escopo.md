@@ -42,7 +42,7 @@ O Sistema de Gerenciamento de Processos Licitatórios tem como objetivo facilita
 
 
 ### Tecnologias (Stacks)
-- **Código:** NextJS
+- **Código:** NestJS
 - **Armazenamento:** AWS (nuvem)
 - **Banco de Dados:** postgres
 - **Teste da API:** Insomnia ou Postman
