@@ -125,7 +125,7 @@ Este projeto será desenvolvido pelos componentes do grupo 7:
 13. RN13 - As licitações devem ser organizadas primeiramente por importância e, posteriormente, pela ordem de cadastro.
 
 ### Modelo Arquitetural
-Será utilizada a arquitetura Cliente-Servidor.
+Será utilizada a arquitetura Cliente-Servidor E Microsserviços.
 
 ### Modelo de Interfaces Gráficas
 Serão utilizados wireframes e protótipos para a apresentação da Interface do Usuário, utilizando como principal ferramenta de prototipação o Figma.
